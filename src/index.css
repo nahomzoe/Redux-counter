@@ -1,12 +1,16 @@
 body {
   background: lightgreen;
 }
+.header {
+  margin-bottom: 5rem;
+}
 
 .flex {
   display: flex;
-  justify-items: center;
 }
+
 .circle {
+  margin: auto;
   height: 200px;
   width: 200px;
   border-radius: 50%;
@@ -17,8 +21,12 @@ body {
   background-color: rgb(8, 90, 120);
   margin-bottom: 5rem;
 }
+.buttons {
+  margin: auto;
+}
 
 .button {
+  margin: auto;
   max-width: 150px;
   background-color: #c2fbd7;
   border-radius: 100px;
